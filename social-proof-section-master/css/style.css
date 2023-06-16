@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("/images/bg-pattern-bottom-desktop.svg"); */
+    font-family: 'Spartan',sans-serif;
+    font-size: 15px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+
+}
+
+.Head_Container{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.big-heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 55px 0 20px 0;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+
+.Top-layer{
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.big-heading h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.head p{
+    font-size: 1.2em;
+    line-height: 1.6em;
+    /* margin: 18px auto; */
+    padding:16px 0;
+    margin:17px 0;
+}
+
+.star1{
+    background-color: #F7F2F8;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+span{
+    color:hsl(333, 80%, 67%);
+}
+
+.holder{
+    color: hsl(300, 24%, 96%);
+}
+
+.star_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 88px;
+    max-width: 100%;
+}
+
+.down-layer{
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 0;
+    flex-wrap: wrap;
+}
+
+.rating{
+    margin-right: 72px;
+    /* font-weight: 500; */
+    /* font-size: 1.2em; */
+}
+
+.rating1{
+    padding-left: 46px;
+    /* padding: 67px auto; */
+    /* margin: 21px auto; */
+    margin-right: 29px;
+}
+
+.rating2{
+    padding-left: 105px;
+
+}
+
+.review{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+
+}
+
+.comn, .second_box, .third_box{
+    border-radius: 10px;
+    margin-bottom: 38px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.first_box{
+    padding: 0 25px;
+}
+
+.second_box{
+    margin: 21px 0 15px 19px;
+    padding: 0 25px;
+}
+
+.third_box{
+    margin: 45px 0 0 19px;
+    padding: 0 25px;
+}
+
+.comn{
+    margin-bottom: 38px;
+}
+
+
+.layer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 0;
+
+}
+
+.photo-para{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+}
+
+.photo img{
+    border-radius: 36px;
+    max-width: 3.2em;
+}
+
+.sentence p{
+    /* font-size: 1.3rem;
+    margin-left: 2.2em; */
+    color: white;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.holder{
+    margin: 8px auto auto 24px;
+    color: hsl(300, 24%, 96%);
+    font-weight: 700;
+}
+
+.img img{
+    margin:2px;
+}
+
+
+/* @media screen and (max-width:1168px) {
+    
+    .Top-layer{
+        margin: 40px 10px;
+        padding: 0 44px;
+    }
+
+} */
+
+@media screen and (max-width:1173px) {
+    
+    /* .star_box{
+        padding:34px 0;
+    } */
+
+    .star1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* .review{
+        font-size: 1.2em;
+    } */
+}
+
+@media screen and (max-width:943px) {
+    
+    .big-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head{
+        display: flex;
+        align-items: center;
+    }
+
+    .rating, .rating1, .rating2{
+        padding:10px;
+        margin:0;
+    }
+
+    .star_box{
+        /* max-width: 50%; */
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:822px) {
+    
+    .big-heading{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+    }
+
+    .head{
+        display: flex;
+        align-items: center;
+    }
+
+    .head h1{
+        font-size: 2.4em;
+    }
+    
+    .head p{
+        font-size: 1em;
+        margin-left:15px;
+    }
+
+    .Head_Container {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .Top-layer {
+        margin: 22px auto;
+        padding: 0 30px;
+        /* min-width: 100%; */
+    }
+
+    .first_box {
+        padding: 0 20px;
+    }
+
+    .second_box{
+        padding: 0 25px;
+    }
+
+    .third_box {
+        /* margin: 45px 0 0 19px; */
+        padding: 0 25px;
+    }
+}
